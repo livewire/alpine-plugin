@@ -1,0 +1,2 @@
+!function(e){"function"==typeof define&&define.amd?define(e):e()}((function(){"use strict";if(void 0===window.livewire)throw"Livewire Alpine Plugin: window.livewire is undefined. Make sure @livewireScripts is placed above this script include";window.livewire.hook("afterDomUpdate",e=>{window.Alpine&&(e.el.rawNode().hasAttribute("x-data")&&e.el.rawNode().__x&&e.el.rawNode().__x.updateElements(e.el.rawNode().__x.$el),e.el.querySelectorAll("[x-data]").forEach(e=>{e.__x&&e.__x.updateElements(e.__x.$el)}))})}));
+//# sourceMappingURL=livewire-alpine-plugin.js.map
