@@ -1,3 +1,5 @@
+> IMPORTANT: This repo is no longer needed. Livewire > 1.0 now supports Alpine out of the box.
+
 # Livewire AlpineJS Plugin
 
 ## Usage
